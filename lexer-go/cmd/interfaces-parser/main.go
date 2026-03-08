@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"lexer-task-2/internal/parser"
+	"lexer-go/internal/parser"
 
 	"github.com/antlr4-go/antlr/v4"
 )

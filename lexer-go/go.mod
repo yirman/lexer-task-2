@@ -1,4 +1,4 @@
-module lexer-task-2
+module lexer-go
 
 go 1.25
 

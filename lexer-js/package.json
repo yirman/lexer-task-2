@@ -1,0 +1,13 @@
+{
+  "name": "interfaces-lexer-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "antlr4 -Dlanguage=JavaScript -o generated ../Interfaces.g4",
+    "parse": "node src/main.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

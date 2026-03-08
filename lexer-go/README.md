@@ -10,10 +10,10 @@ This project uses ANTLR4 to generate a lexer and parser in Go from `Interfaces.g
 
 ## Generate Parser
 
-From the project root:
+From the `lexer-go` folder:
 
 ```powershell
-antlr4 -Dlanguage=Go -o internal/parser -package parser Interfaces.g4
+antlr4 -Dlanguage=Go -o internal/parser -package parser ..\Interfaces.g4
 ```
 
 ## Install Dependencies
