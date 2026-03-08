@@ -1,0 +1,91 @@
+{
+  "data_dir": "data",
+  "file_count": 40,
+  "repeat": 2,
+  "rounds": [
+    {
+      "round": 1,
+      "results": [
+        {
+          "name": "Python",
+          "elapsed_seconds": 7.943208699987736,
+          "total_files": 40,
+          "failed_files": []
+        },
+        {
+          "name": "Go",
+          "elapsed_seconds": 0.43928669998422265,
+          "total_files": 40,
+          "failed_files": []
+        },
+        {
+          "name": "JavaScript",
+          "elapsed_seconds": 4.637073099962436,
+          "total_files": 40,
+          "failed_files": []
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "results": [
+        {
+          "name": "Python",
+          "elapsed_seconds": 7.751251099980436,
+          "total_files": 40,
+          "failed_files": []
+        },
+        {
+          "name": "Go",
+          "elapsed_seconds": 0.39040670002577826,
+          "total_files": 40,
+          "failed_files": []
+        },
+        {
+          "name": "JavaScript",
+          "elapsed_seconds": 4.42743610002799,
+          "total_files": 40,
+          "failed_files": []
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "name": "Python",
+      "times_seconds": [
+        7.943208699987736,
+        7.751251099980436
+      ],
+      "mean_seconds": 7.847229899984086,
+      "min_seconds": 7.751251099980436,
+      "max_seconds": 7.943208699987736,
+      "stdev_seconds": 0.13573452066545622,
+      "total_failures": 0
+    },
+    {
+      "name": "Go",
+      "times_seconds": [
+        0.43928669998422265,
+        0.39040670002577826
+      ],
+      "mean_seconds": 0.41484670000500046,
+      "min_seconds": 0.39040670002577826,
+      "max_seconds": 0.43928669998422265,
+      "stdev_seconds": 0.03456337943501419,
+      "total_failures": 0
+    },
+    {
+      "name": "JavaScript",
+      "times_seconds": [
+        4.637073099962436,
+        4.42743610002799
+      ],
+      "mean_seconds": 4.532254599995213,
+      "min_seconds": 4.42743610002799,
+      "max_seconds": 4.637073099962436,
+      "stdev_seconds": 0.14823574424125063,
+      "total_failures": 0
+    }
+  ]
+}
