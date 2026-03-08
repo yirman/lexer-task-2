@@ -92,6 +92,36 @@ Salida esperada (resumen):
 - cantidad de fallos
 - archivo JSON con resultados: `benchmark_results.json`
 
+### Ejemplo real de tiempos
+
+Ejecutando:
+
+```powershell
+py -3 .\run_benchmark_pipeline.py --repeat 2
+```
+
+Salida (ejemplo):
+
+```text
+Round 1/2
+Python: elapsed=7.943s, files=40, failed=0
+Go: elapsed=0.439s, files=40, failed=0
+JavaScript: elapsed=4.637s, files=40, failed=0
+
+Round 2/2
+Python: elapsed=7.751s, files=40, failed=0
+Go: elapsed=0.390s, files=40, failed=0
+JavaScript: elapsed=4.427s, files=40, failed=0
+```
+
+Promedio de este ejemplo (`repeat=2`):
+
+- Go: `0.415s`
+- JavaScript: `4.532s`
+- Python: `7.847s`
+
+Nota: estos tiempos dependen del hardware y de la carga del sistema.
+
 ## 4) Ver Tiempos con Grafico
 
 Instala dependencia para graficar:
@@ -110,6 +140,10 @@ Esto genera:
 
 - `benchmark_results.json`
 - `benchmark_times.png`
+
+Vista del grafico generado:
+
+![Grafico de benchmark de parsers](./benchmark_times.png)
 
 ### Opcion B: generar grafico manualmente desde JSON
 
